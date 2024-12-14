@@ -9,7 +9,7 @@ import java.util.*;
 // ** 인덱스 및 다음항목 0체크
 // 2~4 반복 더이상 불가할 때까지
 
-class Solution {
+class Solution2 {
     int N = -1;
     int[][] matrix = null;
     Node node = null;
