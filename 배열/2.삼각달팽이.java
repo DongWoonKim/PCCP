@@ -8,16 +8,6 @@ import java.util.*;
 // 4. 대각선(x, y) -> (x-1, y-1) 
 // ** 인덱스 및 다음항목 0체크
 // 2~4 반복 더이상 불가할 때까지
-class Node {
-    int x;
-    int y;
-    int value;
-    public Node(int x, int y, int value) {
-        this.x = x;
-        this.y = y;
-        this.value = value;
-    }
-}
 
 class Solution {
     int N = -1;
@@ -37,6 +27,17 @@ class Solution {
         }
         // 결과
         return getResult();
+    }
+
+    class Node {
+        int x;
+        int y;
+        int value;
+        public Node(int x, int y, int value) {
+            this.x = x;
+            this.y = y;
+            this.value = value;
+        }
     }
     
     // 초기화 메서드
